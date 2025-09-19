@@ -1,4 +1,4 @@
-package com.mycompany.baitapontapjava;
+package com.mycompany.baitapontapjava.Bai1;
 
 public class Bai01_PhanSo {
     // --- models (lồng bên trong) ---

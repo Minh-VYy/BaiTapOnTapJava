@@ -1,4 +1,4 @@
-package com.mycompany.baitapontapjava;
+package com.mycompany.baitapontapjava.Bai1;
 
 public class Bai10_BienLai {
     static class KhachHang{ String chuHo, soNha, maCongTo;

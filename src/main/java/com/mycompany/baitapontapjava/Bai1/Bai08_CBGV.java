@@ -1,4 +1,4 @@
-package com.mycompany.baitapontapjava;
+package com.mycompany.baitapontapjava.Bai1;
 import java.math.BigDecimal; import java.util.*;
 
 public class Bai08_CBGV {

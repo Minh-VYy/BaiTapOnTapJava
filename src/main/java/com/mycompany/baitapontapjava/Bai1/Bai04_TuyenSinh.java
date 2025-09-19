@@ -1,4 +1,4 @@
-package com.mycompany.baitapontapjava;
+package com.mycompany.baitapontapjava.Bai1;
 import java.util.*;
 
 public class Bai04_TuyenSinh {

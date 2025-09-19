@@ -1,4 +1,4 @@
-package com.mycompany.baitapontapjava;
+package com.mycompany.baitapontapjava.Bai1;
 import java.util.*; import java.util.stream.*;
 
 public class Bai02_CanBo {
