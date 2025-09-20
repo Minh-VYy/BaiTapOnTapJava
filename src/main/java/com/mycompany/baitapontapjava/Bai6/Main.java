@@ -2,8 +2,8 @@ package com.mycompany.baitapontapjava.Bai6;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        KhachSan ks_332 = new KhachSan();
-        Scanner sc_332 = new Scanner(System.in);
+        KhachSan ks_350 = new KhachSan();
+        Scanner sc_350 = new Scanner(System.in);
 
         while (true) {
             System.out.println("\n===== MENU KHACH SAN =====");
@@ -13,20 +13,20 @@ public class Main {
             System.out.println("4. Tinh tien tra phong");
             System.out.println("5. Thoat");
             System.out.print("Chọn: ");
-            int chon_332 = Integer.parseInt(sc_332.nextLine());
+            int chon_350 = Integer.parseInt(sc_350.nextLine());
 
-            switch (chon_332) {
+            switch (chon_350) {
                 case 1:
-                    ks_332.nhapKhach();
+                    ks_350.nhapKhach();
                     break;
                 case 2:
-                    ks_332.hienThiDS();
+                    ks_350.hienThiDS();
                     break;
                 case 3:
-                    ks_332.xoaKhach();
+                    ks_350.xoaKhach();
                     break;
                 case 4:
-                    ks_332.tinhTien();
+                    ks_350.tinhTien();
                     break;
                 case 5:
                     System.out.println("Ket thuc chuong trinh.");

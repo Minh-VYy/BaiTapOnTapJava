@@ -1,34 +1,34 @@
 package com.mycompany.baitapontapjava.Bai2;
 public class CanBo {
-     private String hoTen_332;
-    private String ngaySinh_332;
-    private String gioiTinh_332;
-    private String diaChi_332;
+     private String hoTen_350;
+    private String ngaySinh_350;
+    private String gioiTinh_350;
+    private String diaChi_350;
 
     public CanBo() {}
 
-    public CanBo(String hoTen_332, String ngaySinh_332, String gioiTinh_332, String diaChi_332) {
-        this.hoTen_332 = hoTen_332;
-        this.ngaySinh_332 = ngaySinh_332;
-        this.gioiTinh_332 = gioiTinh_332;
-        this.diaChi_332 = diaChi_332;
+    public CanBo(String hoTen_350, String ngaySinh_350, String gioiTinh_350, String diaChi_350) {
+        this.hoTen_350 = hoTen_350;
+        this.ngaySinh_350 = ngaySinh_350;
+        this.gioiTinh_350 = gioiTinh_350;
+        this.diaChi_350 = diaChi_350;
     }
-    public String getHoTen_332() { return hoTen_332; }
-    public void setHoTen_332(String hoTen_332) { this.hoTen_332 = hoTen_332; }
+    public String getHoTen_350() { return hoTen_350; }
+    public void setHoTen_350(String hoTen_350) { this.hoTen_350 = hoTen_350; }
 
-    public String getNgaySinh_332() { return ngaySinh_332; }
-    public void setNgaySinh_332(String ngaySinh_332) { this.ngaySinh_332 = ngaySinh_332; }
+    public String getNgaySinh_350() { return ngaySinh_350; }
+    public void setNgaySinh_350(String ngaySinh_350) { this.ngaySinh_350 = ngaySinh_350; }
 
-    public String getGioiTinh_332() { return gioiTinh_332; }
-    public void setGioiTinh_332(String gioiTinh_332) { this.gioiTinh_332 = gioiTinh_332; }
+    public String getGioiTinh_350() { return gioiTinh_350; }
+    public void setGioiTinh_350(String gioiTinh_350) { this.gioiTinh_350 = gioiTinh_350; }
 
-    public String getDiaChi_332() { return diaChi_332; }
-    public void setDiaChi_332(String diaChi_332) { this.diaChi_332 = diaChi_332; }
+    public String getDiaChi_350() { return diaChi_350; }
+    public void setDiaChi_350(String diaChi_350) { this.diaChi_350 = diaChi_350; }
 
-    public void hienThiThongTin_332() {
-        System.out.println("Ho ten: " + hoTen_332);
-        System.out.println("Ngay sinh: " + ngaySinh_332);
-        System.out.println("Gioi tinh: " + gioiTinh_332);
-        System.out.println("Đia chi: " + diaChi_332);
+    public void hienThiThongTin_350() {
+        System.out.println("Ho ten: " + hoTen_350);
+        System.out.println("Ngay sinh: " + ngaySinh_350);
+        System.out.println("Gioi tinh: " + gioiTinh_350);
+        System.out.println("Đia chi: " + diaChi_350);
     }
 }

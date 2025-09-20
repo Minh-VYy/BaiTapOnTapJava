@@ -1,18 +1,18 @@
 package com.mycompany.baitapontapjava.Bai2;
 class NhanVien extends CanBo {
-    private String congViec_332;
+    private String congViec_350;
 
-    public NhanVien(String hoTen_332, String ngaySinh_332, String gioiTinh_332, String diaChi_332, String congViec_332) {
-        super(hoTen_332, ngaySinh_332, gioiTinh_332, diaChi_332);
-        this.congViec_332 = congViec_332;
+    public NhanVien(String hoTen_350, String ngaySinh_350, String gioiTinh_350, String diaChi_350, String congViec_350) {
+        super(hoTen_350, ngaySinh_350, gioiTinh_350, diaChi_350);
+        this.congViec_350 = congViec_350;
     }
 
-    public String getCongViec_332() { return congViec_332; }
-    public void setCongViec_332(String congViec_332) { this.congViec_332 = congViec_332; }
+    public String getCongViec_350() { return congViec_350; }
+    public void setCongViec_350(String congViec_350) { this.congViec_350 = congViec_350; }
 
     @Override
-    public void hienThiThongTin_332() {
-        super.hienThiThongTin_332();
-        System.out.println("Cong viec: " + congViec_332);
+    public void hienThiThongTin_350() {
+        super.hienThiThongTin_350();
+        System.out.println("Cong viec: " + congViec_350);
     }
 }

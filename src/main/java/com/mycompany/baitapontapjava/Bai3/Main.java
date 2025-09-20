@@ -2,8 +2,8 @@ package com.mycompany.baitapontapjava.Bai3;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        QuanLySach ql_332 = new QuanLySach();
-        Scanner sc_332 = new Scanner(System.in);
+        QuanLySach ql_350 = new QuanLySach();
+        Scanner sc_350 = new Scanner(System.in);
 
         while (true) {
             System.out.println("\n===== MENU =====");
@@ -13,24 +13,24 @@ public class Main {
             System.out.println("4. Hien thi tat ca");
             System.out.println("5. Thoat");
             System.out.print("Chon: ");
-            int chon_332 = Integer.parseInt(sc_332.nextLine());
+            int chon_350 = Integer.parseInt(sc_350.nextLine());
 
-            switch (chon_332) {
+            switch (chon_350) {
                 case 1:
-                    ql_332.nhapTaiLieu();
+                    ql_350.nhapTaiLieu();
                     break;
                 case 2:
                     System.out.print("Nhap ma tai lieu can tim: ");
-                    String ma_332 = sc_332.nextLine();
-                    ql_332.timKiemTheoMa(ma_332);
+                    String ma_350 = sc_350.nextLine();
+                    ql_350.timKiemTheoMa(ma_350);
                     break;
                 case 3:
                     System.out.print("Nhap loai tai lieu can tim (sach/tapchi/bao): ");
-                    String loai_332 = sc_332.nextLine();
-                    ql_332.timKiemTheoLoai(loai_332);
+                    String loai_350 = sc_350.nextLine();
+                    ql_350.timKiemTheoLoai(loai_350);
                     break;
                 case 4:
-                    ql_332.hienThiTatCa();
+                    ql_350.hienThiTatCa();
                     break;
                 case 5:
                     System.out.println("Ket thuc chuong trinh.");

@@ -3,54 +3,54 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 class QuanLyCanBo {
-    private List<CanBo> danhSachCanBo_332 = new ArrayList<>();
-    private Scanner sc_332 = new Scanner(System.in);
-    public void nhapCanBo_332() {
+    private List<CanBo> danhSachCanBo_350 = new ArrayList<>();
+    private Scanner sc_350 = new Scanner(System.in);
+    public void nhapCanBo_350() {
         System.out.println("Chon loai can bo: 1. Cong nhan | 2. Ky su | 3. Nhan vien");
-        int chon_332 = Integer.parseInt(sc_332.nextLine());
+        int chon_350 = Integer.parseInt(sc_350.nextLine());
         System.out.print("Họ ten: ");
-        String hoTen_332 = sc_332.nextLine();
+        String hoTen_350 = sc_350.nextLine();
         System.out.print("Ngay sinh: ");
-        String ngaySinh_332 = sc_332.nextLine();
+        String ngaySinh_350 = sc_350.nextLine();
         System.out.print("Gioi tinh: ");
-        String gioiTinh_332 = sc_332.nextLine();
+        String gioiTinh_350 = sc_350.nextLine();
         System.out.print("Đia chi: ");
-        String diaChi_332 = sc_332.nextLine();
-        switch (chon_332) {
+        String diaChi_350 = sc_350.nextLine();
+        switch (chon_350) {
             case 1:
                 System.out.print("Nhap bac cong nhan (1-7): ");
-                int bac_332 = Integer.parseInt(sc_332.nextLine());
-                danhSachCanBo_332.add(new CongNhan(hoTen_332, ngaySinh_332, gioiTinh_332, diaChi_332, bac_332));
+                int bac_350 = Integer.parseInt(sc_350.nextLine());
+                danhSachCanBo_350.add(new CongNhan(hoTen_350, ngaySinh_350, gioiTinh_350, diaChi_350, bac_350));
                 break;
             case 2:
                 System.out.print("Nganh dao tao: ");
-                String nganhDaoTao_332 = sc_332.nextLine();
-                danhSachCanBo_332.add(new KySu(hoTen_332, ngaySinh_332, gioiTinh_332, diaChi_332, nganhDaoTao_332));
+                String nganhDaoTao_350 = sc_350.nextLine();
+                danhSachCanBo_350.add(new KySu(hoTen_350, ngaySinh_350, gioiTinh_350, diaChi_350, nganhDaoTao_350));
                 break;
             case 3:
                 System.out.print("Cong viec: ");
-                String congViec_332 = sc_332.nextLine();
-                danhSachCanBo_332.add(new NhanVien(hoTen_332, ngaySinh_332, gioiTinh_332, diaChi_332, congViec_332));
+                String congViec_350 = sc_350.nextLine();
+                danhSachCanBo_350.add(new NhanVien(hoTen_350, ngaySinh_350, gioiTinh_350, diaChi_350, congViec_350));
                 break;
             default:
                 System.out.println("Lua chon khong hop le!");
         }
     }
-    public void timKiemTheoTen_332(String ten_332) {
-        boolean found_332 = false;
-        for (CanBo cb_332 : danhSachCanBo_332) {
-            if (cb_332.getHoTen_332().equalsIgnoreCase(ten_332)) {
-                cb_332.hienThiThongTin_332();
-                found_332 = true;
+    public void timKiemTheoTen_350(String ten_350) {
+        boolean found_350 = false;
+        for (CanBo cb_350 : danhSachCanBo_350) {
+            if (cb_350.getHoTen_350().equalsIgnoreCase(ten_350)) {
+                cb_350.hienThiThongTin_350();
+                found_350 = true;
             }
         }
-        if (!found_332) {
-            System.out.println("Khong tim thay can bo co ten: " + ten_332);
+        if (!found_350) {
+            System.out.println("Khong tim thay can bo co ten: " + ten_350);
         }
     }
-    public void hienThiTatCa_332() {
-        for (CanBo cb_332 : danhSachCanBo_332) {
-            cb_332.hienThiThongTin_332();
+    public void hienThiTatCa_350() {
+        for (CanBo cb_350 : danhSachCanBo_350) {
+            cb_350.hienThiThongTin_350();
             System.out.println("------------------");
         }
     }
